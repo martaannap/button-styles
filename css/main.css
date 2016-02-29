@@ -15,6 +15,7 @@ div {
 .btn {
   display: inline-block;
   border-radius: 8px;
+  border: 3px solid #666;
   background-color: #666;
   padding: 0.4em 0.75em 0.3em;
 
@@ -35,10 +36,12 @@ a {
 
 .btn-subtle {
   background-color: #ccc;
+  border-color: #ccc;
 }
 
 .btn-warning {
   background-color: #f33;
+  border-color: #f33;
 }
 
 .btn-ghost {
@@ -49,16 +52,21 @@ a {
 
 .btn:hover {
   background-color:#333;
+  border-color: #333;
 }
 
 .btn-subtle:hover {
   background-color: #666;
+  border-color: #666;
 }
 
 .btn-ghost:hover {
   background-color: #ccc;
+  border-color: #ccc;
+  color: #fff;
 }
 
 .btn-warning:hover {
   background-color: #933;
+  border-color: #933;
 }
